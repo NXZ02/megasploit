@@ -4,10 +4,12 @@ tool metasploit gui
 chmod +x install.sh
 ./install.sh
 
-#debian
+# debian
+
 sudo apt install metasploit-framework
 
-#arch linux 
+# arch linux 
+
 sudo pacman -S metasploit --noconfirm
 
 # how to run 
