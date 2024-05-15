@@ -3,6 +3,7 @@ tool metasploit gui
 # how to install
 chmod +x install.sh
 ./install.sh
+
 #debian
 sudo apt install metasploit-framework
 
