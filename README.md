@@ -1,6 +1,11 @@
 # megasploit
 tool metasploit gui 
+# how to install
 
+chmod +x install.sh
+./install.sh
+# how to run 
+python3 megasploit.py
 
 
 
