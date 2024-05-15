@@ -1,9 +1,14 @@
 # megasploit
 tool metasploit gui 
 # how to install
-
 chmod +x install.sh
 ./install.sh
+debian
+sudo apt install metasploit-framework
+
+arch linux 
+sudo pacman -S metasploit --noconfirm
+
 # how to run 
 python3 megasploit.py
 
