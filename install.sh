@@ -21,6 +21,15 @@ then
 	pip install pillow --break-system-packages
 	sudo apt install python3-dev -y 
 	sudo apt install python3-pil python3-pil.imagetk -y 
+ # system break fix remove #
+ 	 #sudo apt install python3-pip -y 
+	 #pip install pygame 
+	 #pip install tk 
+	 #pip install customtkinter 
+	 #pip install pillow 
+	 #sudo apt install python3-dev -y 
+	 #sudo apt install python3-pil python3-pil.imagetk -y 
+ 
 elif [ $tk == 2 ]; 
 	then
  		sudo pacman -S python-pip --noconfirm
